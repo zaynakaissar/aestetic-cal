@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MY CALCULATOR</title>
+        <link rel="stylesheet" href="calc.css">
+    </head>
+    <body>
+        <div id="main">
+            <h1> MY CALCULATOR </h1>
+            <input readonly id="inp" placeholder="*** PRESS A BUTTON ***">
+            <div id="calculator">
+                <button id="m" onclick = "clearall()">Ac</button>
+                <button id="m" onclick = "clearone()">Del</button>
+                <button id="m" onclick = "disp('/')">/</button>
+                <button id="m" onclick = "disp('*')">*</button>
+                <button id="op" onclick = "disp('7')">7</button>
+                <button id="op" onclick = "disp(8)">8</button>
+                <button id="op" onclick = "disp(9)">9</button>
+                <button id="m" onclick = "disp('-')">-</button>
+                <button id="op" onclick = "disp(4)">4</button>
+                <button id="op" onclick = "disp(5)">5</button>
+                <button id="op" onclick = "disp(6)">6</button>
+                <button id="m" onclick = "disp('+')">+</button>
+                <button id="op" onclick = "disp(1)">1</button>
+                <button id="op" onclick = "disp(2)">2</button>
+                <button id="op" onclick = "disp(3)" classe = "%">3</button>   
+                <button id="m" onclick = "disp('%')">%</button>
+                <button id="op" onclick = "disp(',')">,</button>
+                <button id="op" onclick = "disp(0)">0</button>
+                <button id="op" onclick = "disp('.')">.</button>
+                <button id="m" onclick = "equal()">=</button>        
+            </div>
+        </div>
+<script src="calc.js"></script>
+    </body>
+</html>
